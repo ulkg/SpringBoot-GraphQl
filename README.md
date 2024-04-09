@@ -12,3 +12,12 @@ query {
   }
 }
 ```
+
+Possibility to define and add custom queries as well:
+```
+query {
+  authorById(id: 2) {
+    name
+  }
+}
+```
